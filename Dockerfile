@@ -1,4 +1,4 @@
-FROM node:20-bullseye
+FROM node:20-bookworm
 
 # Install virtual framebuffer (Xvfb) and basic required tools, skipping all VNC bloat!
 RUN apt-get update && apt-get install -y \
